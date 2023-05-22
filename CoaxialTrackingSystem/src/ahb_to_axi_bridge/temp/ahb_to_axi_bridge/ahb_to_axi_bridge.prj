@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW2A-55C" package="PBGA484" speed="8" partNumber="GW2A-LV55PG484C8/I7"/>
+    <FileList>
+        <File path="C:/Gowin/Gowin_V1.9.8.09/IDE/ipcore/AHB_to_AXI_Bridge/data/ahb2axi_top.v" type="verilog"/>
+        <File path="C:/Gowin/Gowin_V1.9.8.09/IDE/ipcore/AHB_to_AXI_Bridge/data/ahb2axi_encrypt.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="1"/>
+        <Option type="dsp_balance" value="1"/>
+        <Option type="include_path" value="C:/Gowin/Gowin_V1.9.8.09/IDE/ipcore/AHB_to_AXI_Bridge/data"/>
+        <Option type="include_path" value="C:/Users/Work/Desktop/GowinProject/CoaxialTrackingSystem/src/ahb_to_axi_bridge/temp/ahb_to_axi_bridge"/>
+        <Option type="output_file" value="ahb_to_axi_bridge.vg"/>
+        <Option type="output_template" value="ahb_to_axi_bridge_tmp.v"/>
+        <Option type="ram_balance" value="1"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+    </OptionList>
+</Project>

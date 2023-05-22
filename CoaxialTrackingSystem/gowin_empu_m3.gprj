@@ -1,0 +1,20 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2A-55C" pn="GW2A-LV55PG484C8/I7">gw2a55c-005</Device>
+    <FileList>
+        <File path="src/MedianFilter/MedianComporator.v" type="file.verilog" enable="1"/>
+        <File path="src/MedianFilter/MedianFilter.v" type="file.verilog" enable="1"/>
+        <File path="src/MedianFilter/MedianNode.v" type="file.verilog" enable="1"/>
+        <File path="src/ahb_to_axi_bridge/ahb_to_axi_bridge.v" type="file.verilog" enable="1"/>
+        <File path="src/axi4LiteSlave/axi4_lite_slave.v" type="file.verilog" enable="1"/>
+        <File path="src/axi4LiteSlave/axi4_lite_slave_top.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_empu_m3/gowin_empu_m3.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_rpll/gowin_rpll.v" type="file.verilog" enable="1"/>
+        <File path="src/top.v" type="file.verilog" enable="1"/>
+        <File path="src/constraints/physical.cst" type="file.cst" enable="1"/>
+        <File path="src/constraints/time.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>

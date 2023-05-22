@@ -1,0 +1,18 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2A-55" pn="GW2A-LV55PG484C8/I7">gw2a55-000</Device>
+    <FileList>
+        <File path="src/Clock.v" type="file.verilog" enable="1"/>
+        <File path="src/DAC_fsm.v" type="file.verilog" enable="1"/>
+        <File path="src/PWB_Blink.v" type="file.verilog" enable="1"/>
+        <File path="src/blink.v" type="file.verilog" enable="1"/>
+        <File path="src/i2c_clk_devire.v" type="file.verilog" enable="1"/>
+        <File path="src/i2c_master.v" type="file.verilog" enable="1"/>
+        <File path="src/i2c_master_git.v" type="file.verilog" enable="1"/>
+        <File path="src/top.v" type="file.verilog" enable="1"/>
+        <File path="src/test.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>
